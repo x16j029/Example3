@@ -16,5 +16,15 @@ namespace Example3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label3.Text = String.Format("{0}", 1 + 2 * 3);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label4.Text = String.Format("{0}", (1 + 2) * 3);
+        }
     }
 }
